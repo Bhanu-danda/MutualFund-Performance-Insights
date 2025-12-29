@@ -1,138 +1,113 @@
-📊 Mutual Fund Performance & Investment Analytics
-🔍 Project Overview
+# 📊 Mutual Fund Performance & Investment Analytics
 
-This project is a Power BI–based analytical dashboard designed to analyze mutual fund performance and support data-driven investment decisions.
-It transforms raw mutual fund data into interactive insights, enabling users to compare funds, evaluate costs vs returns, and calculate SIP/Lumpsum investments efficiently.
+## 📌 Overview
+This project is a **Power BI analytics dashboard** built to analyze mutual fund performance and support **data-driven investment decisions**.  
+It converts raw financial data into interactive insights, enabling easy comparison of returns, expense ratios, and investment outcomes.
 
-🎯 Purpose of the Project
+---
 
-Analyze historical mutual fund performance
+## 🎯 Purpose
+- Analyze historical mutual fund performance  
+- Compare funds across different return periods  
+- Study the relationship between expense ratio and long-term returns  
+- Provide SIP and Lumpsum investment calculations  
+- Enable informed investment decisions using visualization  
 
-Compare returns across different time horizons
+---
 
-Study the relationship between expense ratio and returns
+## 👥 Target Users
+- Retail investors  
+- Students learning financial and data analytics  
+- Beginner and intermediate mutual fund investors  
+- Analysts performing quick fund screening  
 
-Provide investment calculators for SIP and Lumpsum planning
+---
 
-Enable faster and more informed decision-making using visualization
+## ❗ Problem Statement
+- Identifying top-performing mutual funds from large datasets is difficult  
+- Manual comparison of returns and expense ratios is time-consuming  
+- Investment return calculations without tools are inefficient  
 
-👥 Target Users
+---
 
-Retail investors exploring mutual fund options
+## ✅ Objectives
+- Identify top mutual funds based on long-term returns  
+- Compare fund returns against expense ratio  
+- Analyze mutual funds category-wise (Equity, Debt, Hybrid)  
+- Build dynamic SIP and Lumpsum investment calculators  
 
-Students learning financial analytics and Power BI
+---
 
-Beginner and intermediate mutual fund investors
+## 📁 Dataset
+The dataset includes the following attributes:
+- Fund Name  
+- Fund Category  
+- 1-Year, 3-Year, and 5-Year Returns  
+- Expense Ratio  
+- Fund Size  
 
-Analysts performing quick fund performance screening
+Data cleaning and transformation were performed using **Power Query**.
 
-❗ Problem Statements
+---
 
-Identifying top-performing mutual funds from large datasets is challenging
+## 📐 Key Metrics & Measures
+- Average 1Y, 3Y, and 5Y Returns  
+- Expense Ratio  
+- Fund Category filtering  
+- Invested Amount  
+- Estimated Returns  
+- Total Investment Value  
 
-Comparing returns with expense ratios manually is inefficient
+All calculations are implemented using **DAX measures**.
 
-Investment return calculations (SIP/Lumpsum) are time-consuming without tools
+---
 
-✅ Objectives
+## 📊 Dashboard Features
+- KPI cards for performance overview  
+- Category-wise fund analysis  
+- Expense Ratio vs Long-Term Return comparison  
+- Top mutual fund recommendations  
+- SIP & Lumpsum investment calculator  
+- Interactive slicers and filters  
 
-Identify top mutual funds based on long-term returns
+---
 
-Compare fund returns against expense ratio
+## 🧠 Key Insights
+- Higher expense ratios do not consistently lead to higher returns  
+- Long-term performance analysis provides more stable insights  
+- Cost-efficient funds can outperform high-cost funds over time  
 
-Analyze mutual funds category-wise (Equity, Debt, Hybrid)
+---
 
-Build dynamic SIP and Lumpsum investment calculators
+## 🚀 Impact
+- Simplifies mutual fund comparison  
+- Reduces manual analysis effort  
+- Enables faster, data-driven investment decisions  
+- Beginner-friendly financial analytics solution  
 
-📁 Data Description
+---
 
-The dataset includes key mutual fund attributes such as:
+## 🛠️ Tools & Technologies
+- **Power BI** – Data visualization and dashboard creation  
+- **DAX** – Measures and calculations  
+- **Power Query** – Data cleaning and transformation  
+- **Excel / CSV** – Data source  
 
-Fund Name
+---
 
-Fund Category
+## 📌 Conclusion
+This project demonstrates how **Power BI and data analytics** can transform complex financial data into actionable insights, helping users make confident and informed investment decisions.
 
-1-Year, 3-Year, and 5-Year Returns
-
-Expense Ratio
-
-Fund Size
-
-The data was cleaned and transformed using Power Query before analysis.
-
-📐 Key Metrics & Measures
-
-Average 1Y, 3Y, and 5Y Returns
-
-Expense Ratio
-
-Fund Category filtering
-
-Invested Amount
-
-Estimated Returns
-
-Total Investment Value
-
-All calculations are implemented using DAX measures.
-
-📊 Dashboard Features
-
-KPI cards for quick performance overview
-
-Category-wise fund analysis
-
-Expense Ratio vs Long-Term Return comparison
-
-Top mutual fund recommendations
-
-SIP & Lumpsum investment calculator
-
-Interactive slicers and filters
-
-🧠 Key Insights
-
-Higher expense ratios do not consistently result in higher returns
-
-Long-term performance analysis is more reliable than short-term trends
-
-Cost-effective funds can outperform high-cost alternatives over time
-
-🚀 Impact
-
-Simplifies mutual fund comparison
-
-Reduces manual analysis effort
-
-Enables faster, data-driven investment decisions
-
-Beginner-friendly financial analytics dashboard
-
-🛠️ Tools & Technologies
-
-Power BI – Data visualization and dashboard creation
-
-DAX – Measures and calculations
-
-Power Query – Data cleaning and transformation
-
-Excel / CSV – Data source
-
-📌 Conclusion
-
-This project demonstrates how Power BI and data analytics can transform complex financial datasets into meaningful insights, helping users make confident and informed investment decisions.
-
-🔮 Future Enhancements
-
-Risk-adjusted return metrics (Sharpe Ratio, Volatility)
-
-Fund manager performance analysis
-
-Live market data integration
-
-Personalized investment recommendations
-
-👤 Author
-
-Bunny
-Data Analytics & Power BI Enthusiast
+---
+
+## 🔮 Future Scope
+- Risk-adjusted performance metrics (Sharpe Ratio, Volatility)  
+- Fund manager performance analysis  
+- Live market data integration  
+- Personalized investment recommendations  
+
+---
+
+## 👤 Author
+**Bunny**  
+Aspiring Data Analyst | Power BI Enthusiast  
